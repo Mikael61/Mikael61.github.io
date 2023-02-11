@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   width="700"
+   height="360"
+   version="1.1"
+   id="svg999">
+   <title>LRM</title>
+  
+  <defs
+     id="defs923">
+     <marker
+        
+        id="head"
+        orient="auto"
+        refX="0.1"
+        refY="2">
+        <path
+           d="M0,0 V4 L2,2 Z"
+           fill="red"
+           id="path920" />
+     </marker>
+     <marker
+        markerWidth="20"
+        markerHeight="20"
+        refX="10"
+        refY="15"
+        id="head2"
+        orient="auto">
+        <path
+           stroke-width="1"
+           d="M10 10 L 12 15 10 20 20 15 Z"
+           fill="gray"/>
+     </marker>   
+     
+  </defs>
+
+
+
+
+   <g class="entity">
+      <ellipse cx="150" cy="85" rx="135" ry="67.5" fill="none" stroke="black" stroke-width="2"/>
+      <text x="150" y="85" text-anchor="middle">https://libris.kb.se/bib/19468262 *</text>
+      <text x="150" y="105" font-style="italic" text-anchor="middle" stroke-width="0.5" stroke="blue">Exempel: Verk</text>
+   </g>
+   
+   <g class="entity">
+      <ellipse cx="555" cy="85" rx="135" ry="67.5" fill="none" stroke="black" stroke-width="2"/>
+      <text x="555" y="85" text-anchor="middle" visibility="hidden">Entitet</text>
+      <text x="555" y="85" text-anchor="middle">https://libris.kb.se/xv8bds1g49xt45g#it</text>
+      <text x="350" y="75" text-anchor="middle" transform="rotate(45,350,75)"> 	http://purl.org/dc/terms/creator</text>
+      <text x="555" y="105" font-style="italic" text-anchor="middle" stroke-width="0.5" stroke="blue">Ex: Agent</text>
+      <text x="350" y="105" font-style="italic" text-anchor="middle" stroke-width="0.5" stroke="blue" visibility="hidden">Ex: ärSkapadAv</text>
+   </g>
+   
+   <g class="entity">
+      <ellipse cx="150" cy="250" rx="135" ry="67.5" fill="none" stroke="black" stroke-width="2"/>
+      <text x="150" y="250" text-anchor="middle" font-size="0.7em">
+         https://www.youtube.com/watch?v=ranWqoDpteE **</text>
+      <text x="150" y="220" font-style="italic" text-anchor="middle" stroke-width="0.5" stroke="blue">Ex: Manifestation</text>
+      
+   </g>
+   
+   <g class="attribute-value">
+      <rect x="420" y="220" rx="5" width="230" height="60" fill="none" stroke="black" stroke-width="2"/>
+      <text x="535" y="250" text-anchor="middle" visibility="hidden">Attribut(-värde)</text>
+      <text x="535" y="250" text-anchor="middle" font-size="0.5em">http://rdaregistry.info/termList/RDACarrierType/1002</text>
+      <text x="350" y="240" text-anchor="middle" visibility="hidden">Attribut</text>
+      <text x="535" y="270" font-style="italic" text-anchor="middle" stroke-width="0.5" stroke="red">Ex: [bärarkategori] </text>
+      <text x="350" y="270" font-style="italic" text-anchor="middle" stroke-width="0.5" stroke="red" visibility="hidden">Ex: harBärare</text>
+      <text x="350" y="270" text-anchor="middle" font-size="0.5em" transform="rotate(45,350,270)">
+         http://rdaregistry.info/Elements/m/P30001
+      </text>
+   </g>
+   
+   <g><path
+      marker-end="url(#head2)"
+      stroke-width="2"
+      fill="blue"
+      stroke="blue"
+      d="M 285 85 L 400 85 "
+   ></path></g>
+   
+   <g><path
+      marker-end="url(#head2)"
+      stroke-width="2"
+      fill="blue"
+      stroke="red"
+      d="M 285 250 L 400 250 "
+      ></path></g>
+   
+   <text x="50" y="335">
+      <tspan x="50" y="335">* En fiktiv URI, som i realiteten refererar till en EPUB-utgåva med samma titel (Till förruttnelsen) </tspan>
+      <tspan x="50" y="350">** En youtube-URL som visserligen identifierar en manifestation av låten, men inte den som avses</tspan>
+       </text>
+
+   
+   
+   
+   
+   
+  
+   
+   
+   
+   
+  
+  
+  
+   
+</svg>
