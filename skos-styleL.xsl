@@ -75,7 +75,7 @@ xmlns:dc="http://purl.org/dc/elements/1.1/">
 					</xsl:for-each>
 				</p>
 				
-				<div style="margin-left : 3em ; border: solid green 1px">
+				<div style="margin-left : 3em">
 				<xsl:for-each select="rdf:RDF/skos:ConceptScheme/dc:description">
 					<p style="padding : 1em"><xsl:value-of select="."/></p>
 				</xsl:for-each>
