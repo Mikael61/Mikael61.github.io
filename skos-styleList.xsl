@@ -68,16 +68,20 @@ xmlns:dc="http://purl.org/dc/elements/1.1/">
 				<h1>
 					<xsl:value-of select="rdf:RDF/skos:ConceptScheme/dc:title"/>
 				</h1>
-				<h2>
-					<xsl:value-of select="rdf:RDF/skos:ConceptScheme/dc:description"/>
-				</h2>
-
 				<p>
-				<xsl:for-each select="rdf:RDF/skos:ConceptScheme/dc:creator">
-					<xsl:value-of select="."/>
-<br />
-				</xsl:for-each>
+					<xsl:for-each select="rdf:RDF/skos:ConceptScheme/dc:creator">
+						<xsl:value-of select="."/>
+						<br />
+					</xsl:for-each>
 				</p>
+				
+				<div style="margin-left : 3em">
+				<xsl:for-each select="rdf:RDF/skos:ConceptScheme/dc:description">
+					<p style="padding : 1em"><xsl:value-of select="."/></p>
+				</xsl:for-each>
+				</div>
+
+				
 
 
 
