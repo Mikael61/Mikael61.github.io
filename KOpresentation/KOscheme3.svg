@@ -84,7 +84,7 @@
         </text>
     </g>
     
-    <g id="Class">
+    <g id="Class" visibility="hidden">
         <rect width="250" rx="20" height="270" x="650" y="450" fill="yellow" fill-opacity="0.3" filter="url(#f4)" />
         
     </g>
