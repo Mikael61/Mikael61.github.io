@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768">
+    <defs><filter
+        id="f4"
+        x="0"
+        y="0"
+        width="200%"
+        height="200%">
+        <feOffset
+            result="offOut"
+            in="SourceGraphic"
+            dx="7"
+            dy="7"
+            id="feOffset4" />
+        <feColorMatrix
+            result="matrixOut"
+            in="offOut"
+            type="matrix"
+            values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0"
+            id="feColorMatrix6" />
+        <feGaussianBlur
+            result="blurOut"
+            in="matrixOut"
+            stdDeviation="5"
+            id="feGaussianBlur8" />
+        <feBlend
+            in="SourceGraphic"
+            in2="blurOut"
+            mode="normal"
+            id="feBlend10" />
+    </filter>
+        <filter id="f1" x="0" y="0" width="200%" height="200%">
+            <feOffset result="offOut" in="SourceGraphic" dx="10" dy="10" />
+            <feColorMatrix result="matrixOut" in="offOut" type="matrix"
+                values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0" />
+            <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />   
+        </filter>
+    
+    </defs>
+    <desc></desc>
+    <g alignment-baseline="baseline"></g>
+    <g id="KO">
+        <rect width="973" rx="20" height="730" x="25" y="19" fill="#66c2a5" filter="url(#f4)" />
+        <text x="50" y="45" fill="white" style="font-size:20pt">Kunskapsorganisation</text>
+    </g>
+    
+    <g id="IR" visibility="hidden">
+        <rect  width="400" rx="20" height="100" x="100" y="75" fill-opacity="0.6" fill="red" filter="url(#f1)"></rect>
+        <text x="120" y="110" fill="white" style="font-size:20pt">Information Retrieval</text>
+    </g>
+    
+    <g id="frame" visibility="hidden">
+        <circle cx="1018" cy="762" r="3" color="black" fill="red"></circle>
+        <circle cx="1018" cy="0" r="3" color="black" fill="red"></circle>
+        <circle cx="0" cy="762" r="3" color="black" fill="red"></circle>
+        <circle cx="0" cy="0" r="3" color="black" fill="red"></circle>
+    </g>
+    
+    <g id="ResB">
+        <rect width="500" rx="20" height="450" x="100" y="200" fill="#fc8d62" filter="url(#f4)" />
+        <text x="120" y="215" fill="white" style="font-size:20pt">
+            <tspan x="120" dy="22">Resursbeskrivning</tspan>
+        <tspan x="120" dy="22">(katalogisering)</tspan>
+        </text>
+    </g>
+    
+    <g id="metadatavoc" visibility="hidden"><ellipse rx="230" ry="45" cx="340" cy="620" fill="yellow" fill-opacity="0.3"/>
+    <text x="125" y="590" style="font-size:12pt">
+        <tspan x="125" dy="22"> Metadata vocabularies: </tspan>
+        
+       <tspan x="125" dy="22" style="font-style:italic">
+           MARC21, RDA, DCMI terms, MODS, MADS, SKOS, Bibframe ...
+       </tspan>
+    </text></g>
+    
+    <g id="Voc">
+        <rect width="250" rx="20" height="280" x="650" y="100" fill="yellow" fill-opacity="0.3" filter="url(#f4)"/>
+        <text x="655" y="100" fill="black" style="font-size:14pt">
+            <tspan x="655" dy="22">Kontrollerade vokabulärer</tspan>
+            <tspan x="655" dy="22">(ontologier, tesauri, </tspan>
+            <tspan x="655" dy="22">ämnesordslistor ...)</tspan>
+        </text>
+    </g>
+    
+    <g id="Class">
+        <rect width="250" rx="20" height="270" x="650" y="450" fill="yellow" fill-opacity="0.3" filter="url(#f4)" />
+        
+    </g>
+    
+    
+    <g id="Indx">
+        <rect width="400" rx="20" height="100" x="400" y="250" fill-opacity="0.5" fill="#8da0cb" filter="url(#f4)" />
+        <text x="420" y="265" fill="white" style="font-size:14pt" >Tilldelning av ämnesord (indexering) </text>
+    </g>
+    
+    <g id="Klass">
+        <rect width="400" rx="20" height="100" x="400" y="500" fill="#8da0cb" fill-opacity="0.5" filter="url(#f4)" />
+        <text x="420" y="590" fill="white"  style="font-size:14pt">Gruppering och sortering (klassifikation)</text>
+    </g>
+    
+    <g id="Kat">
+        <rect width="400" rx="20" height="300" x="450" y="275" fill="#fc8d62" fill-opacity="0.3"  filter="url(#f4)" />
+        <text x="650" y="250" fill="white" transform="rotate(-45 870 450)" style="font-size:14pt">Auktoritetsarbete</text>
+    </g>
+    
+    <g id="klassschemes"> <text x="655" y="450" fill="black" style="font-size:14pt">
+        <tspan x="655" dy="22">(Utveckling av) Klassifikation</tspan>
+        <tspan x="655" dy="22">(scheman, algoritmer</tspan>
+        <tspan x="655" dy="22">för kategorisering)</tspan>
+    </text></g>
+    
+    <g id="models" fill-opacity="0.3">
+        <ellipse rx="130" ry="45" cx="240" cy="310" fill="gainsboro"/>
+        <ellipse rx="130" ry="45" cx="240" cy="380" fill="gainsboro"/>
+        <ellipse rx="130" ry="85" cx="240" cy="500" fill="gainsboro"/>
+    </g>
+    
+    
+    
+    <g id="modelsText" visibility="hidden">
+        <text x="185" y="310" fill="black" style="font-size:12pt">Conceptual models:
+        </text>
+        <text x="185" y="330" fill="black" style="font-size:12pt ; font-style :italic" >FRBR, LRM, Bibframe
+        </text>
+        <text x="185" y="380" fill="black" style="font-size:12pt">Data models:
+        </text>
+        <text x="185" y="400" fill="black" style="font-size:12pt ; font-style : italic">MARC, RDF, JSON
+        </text>
+        <text x="185" y="450" fill="black" style="font-size:12pt">Encoding schemes (notationer):
+        </text>
+        <text x="185" y="475" fill="black" style="font-size:12pt ; font-style : italic">XML, TURTLE, MARC21
+        </text>
+        <text x="135" y="500" fill="black" style="font-size:12pt ; font-style : italic">URI, RDA termer, Språkkoder ...  
+        </text>
+        <text x="160" y="530" fill="black" style="font-size:12pt ; font-weight : bold">Character Encoding Schemes:
+        </text>
+        <text x="160" y="548" fill="black" style="font-size:12pt ; font-style : italic">ISO 8859-1, UTF-8
+        </text>
+    </g>
+    
+    <g id="vocs" fill-opacity="0.3">
+        <ellipse rx="100" ry="50" cx="765" cy="260" fill="gainsboro"/>
+        <text x="710" y="230" fill-opacity="1.0" style="font-size:12pt">
+            <tspan x="710" dy="20">Svenska Ämnesord</tspan>
+            <tspan x="710" dy="20">LCSH</tspan>
+            <tspan x="710" dy="20">MESH</tspan>
+        </text>
+    </g>
+    <g id="schemes" fill-opacity="0.3">
+        <ellipse rx="100" ry="50" cx="775" cy="610" fill="gainsboro"/>
+        <text x="720" y="590" fill-opacity="1.0" style="font-size:12pt">
+            <tspan x="720" dy="20">DDC</tspan><tspan dx="30">LCC</tspan>
+            <tspan x="720" dy="20">SAB</tspan><tspan dx="30">CC</tspan>
+            <tspan x="720" dy="20">UDC</tspan>
+        </text>
+    </g>
+    
+</svg>
