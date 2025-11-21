@@ -189,7 +189,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">2.1</span> XSL- och DTD-filer</h2>
 <p>För att genomföra uppgiften behöver vi länka till externa filer.</p>
 <p>Vi ska först länka till en stilmall i form av en av två XSL-filer (eXtensible Stylesheet Language) som ger vokabulären en presentation - det vill säga transformerar SKOS-filen till XHTML. Dessa finns finns <a href="https://github.com/Mikael61/Mikael61.github.io">upplagda på Github</a> och kan länkas till direkt.</p>
-<p>Därefter ska vi länka till en DTD-fil (Document Type Definition) som specificerar vilka element och attribut som ska användas i XML-tillämpningen av SKOS. Denna hämtas <a href="https://github.com/Mikael61/Skos">ifrån Github</a> eller via Pingpong-modulen (under Dokument). Spara DTD-filen i samma mapp som den XML-fil som ni arbetar med.</p>
+<p>Därefter ska vi länka till en DTD-fil (Document Type Definition) som specificerar vilka element och attribut som ska användas i XML-tillämpningen av SKOS. Denna hämtas <a href="https://github.com/Mikael61/Skos">ifrån Github</a> eller via Canvas. Spara DTD-filen i samma mapp som den XML-fil som ni arbetar med.</p>
 <div id="hänvisning-till-xsl" class="section level3">
 <h3><span class="header-section-number">2.1.1</span> Hänvisning till XSL</h3>
 <p>Eftersom XSL-filerna finns uppladdade på webben så kan dessa hänvisas till direkt. Filerna ligger i följande sökväg: <code>https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/</code> och heter <code>skos-styleList.xsl</code> respektive <code>skos-styleHie.xsl</code>.</p>
@@ -221,16 +221,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Det är viktigt att komma ihåg att även om det är lite osäkert om man kan tala om giltig och ogiltig SKOS, så kan man i alla fall tala om välformad och icke välformad SKOS. Avsaknaden av en DTD har visat sig vara problematisk i undervisningssammanhang, därför har en sådan konstruerats för den här kursen. Tillägget av en DTD möjliggör att du får utvidgat stöd av EditiX eller XMLSpear när du jobbar med att utveckla din SKOS, så att du får felmeddelanden när du t ex placerar ett <code>skos:broader</code>-element direkt under rotelementet <code>rdf:RDF</code>.</p>
 <p>Validering innebär alltså att man ser till att XML-koden är välformad och giltig.</p>
 <ul>
-<li><p>Välformighet innebär att filen följer XML-regler, specificerade i t ex en DTD-fil (vad som får och ska anges i tesaurusen).</p></li>
+<li><p>Välformighet innebär att filen följer grundläggande XML-regler, som att den inte innehåller otillåtna tecken eller att attributvärden saknar citationstecken.</p></li>
 <li><p>Giltighet innebär att filen följer reglerna för den aktuella XML-tillämpningen, i vårt fall SKOS (hur data anges i tesaurusen).</p></li>
 </ul>
 <div id="validering-i-oxygen" class="section level3">
 <h3><span class="header-section-number">2.2.1</span> Validering i Oxygen</h3>
-<ul>
-<li><code>Ctrl + W</code> för välformighet</li>
-<li><code>Ctrl + V</code> för giltighet
-(<code>Cmd + W/V</code> på Mac)</li>
-</ul>
+<p>
+Kontrollera i menyn vilka tangentkombinationer som fungerar som kortkommando för ändamålet i just din version och på ditt operativsystem. Vanligen hittar du det under Document --&gt; Validate 
+</p>
 </div>
 <div id="validering-i-editix" class="section level3">
 <h3><span class="header-section-number">2.2.2</span> Validering i EditiX</h3>
