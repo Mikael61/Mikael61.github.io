@@ -78,7 +78,7 @@
     <g id="Voc">
         <rect width="250" rx="20" height="280" x="650" y="100" fill="yellow" fill-opacity="0.3" filter="url(#f4)"/>
         <text x="655" y="100" fill="black" style="font-size:14pt">
-            <tspan x="655" dy="22">Kontrollerade vokabulärer</tspan>
+            <a href="https://www.loc.gov/standards/sourcelist/subject.html" target="_blank"><tspan x="655" dy="22">Kontrollerade vokabulärer</tspan></a>
             <tspan x="655" dy="22">(ontologier, tesauri, </tspan>
             <tspan x="655" dy="22">ämnesordslistor ...)</tspan>
         </text>
