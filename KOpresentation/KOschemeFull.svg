@@ -46,12 +46,12 @@
         <text x="50" y="45" fill="white" style="font-size:20pt">Kunskapsorganisation  <tspan style="font-size:15pt">(<tspan style="font-weight:bold">Läs särskilt:</tspan> TDO, kap. 1 - 3) </tspan></text>
     </g>
     
-    <g id="IR" visibility="hidden">
+    <g id="IR" visibility="visible">
         <rect  width="400" rx="20" height="100" x="100" y="75" fill-opacity="0.6" fill="red" filter="url(#f1)"></rect>
-        <text x="120" y="110" fill="white" style="font-size:20pt">Information Retrieval <tspan x="120" y="130" style="font-size:0.7em">räknas ibland, ibland inte</tspan></text>
+        <text x="120" y="110" fill="white" style="font-size:20pt">Information Retrieval<tspan x="120" y="130" style="font-size:0.7em">räknas ibland, ibland inte</tspan></text>
     </g>
     
-    <g id="frame" visibility="hidden">
+    <g id="frame" visibility="visible">
         <circle cx="1018" cy="762" r="3" color="black" fill="red"></circle>
         <circle cx="1018" cy="0" r="3" color="black" fill="red"></circle>
         <circle cx="0" cy="762" r="3" color="black" fill="red"></circle>
@@ -66,7 +66,7 @@
         </text>
     </g>
     
-    <g id="metadatavoc" visibility="hidden"><ellipse rx="230" ry="45" cx="340" cy="620" fill="yellow" fill-opacity="0.3"/>
+    <g id="metadatavoc" visibility="visible"><ellipse rx="230" ry="45" cx="340" cy="620" fill="yellow" fill-opacity="0.3"/>
     <text x="125" y="590" style="font-size:12pt">
         <tspan x="125" dy="22"> Metadatavokabulärer (description vocabularies): </tspan>
         
@@ -75,7 +75,7 @@
        </tspan>
     </text></g>
     
-    <g id="Voc" visibility="hidden">
+    <g id="Voc" visibility="visible">
         <rect width="250" rx="20" height="280" x="650" y="100" fill="yellow" fill-opacity="0.3" filter="url(#f4)"/>
         <text x="655" y="100" fill="black" style="font-size:14pt">
             <tspan x="655" dy="22">Kontrollerade vokabulärer</tspan>
@@ -86,28 +86,28 @@
         </text>
     </g>
     
-    <g id="Class" visibility="hidden">
+    <g id="Class" visibility="visible">
         <rect width="250" rx="20" height="270" x="650" y="450" fill="yellow" fill-opacity="0.3" filter="url(#f4)" />
         
     </g>
     
     
-    <g id="Indx" visibility="hidden">
+    <g id="Indx" visibility="visible">
         <rect width="400" rx="20" height="100" x="400" y="250" fill-opacity="0.5" fill="#8da0cb" filter="url(#f4)" />
-        <text x="425" y="270" fill="white" style="font-size:14pt" >Tilldelning av ämnesord (indexering) <tspan x="425" y="285" style="font-size:12pt">behandlas i senare kurs</tspan></text>
+        <text x="425" y="270" fill="white" style="font-size:14pt" >Tilldelning av ämnesord (indexering) </text>
     </g>
     
-    <g id="Klass" visibility="hidden">
+    <g id="Klass" visibility="visible">
         <rect width="400" rx="20" height="100" x="400" y="500" fill="#8da0cb" fill-opacity="0.5" filter="url(#f4)" />
         <text x="420" y="590" fill="white"  style="font-size:14pt">Gruppering och sortering (klassifikation)</text>
     </g>
     
-    <g id="Kat" visibility="hidden">
+    <g id="Kat" visibility="visible">
         <rect width="400" rx="20" height="300" x="450" y="275" fill="#fc8d62" fill-opacity="0.3"  filter="url(#f4)" />
         <text x="650" y="250" fill="white" transform="rotate(-45 870 450)" style="font-size:14pt">Auktoritetsarbete</text>
     </g>
     
-    <g id="klassschemes" visibility="hidden"> <text x="655" y="450" fill="black" style="font-size:14pt">
+    <g id="klassschemes" visibility="visible"> <text x="655" y="450" fill="black" style="font-size:14pt">
         <tspan x="655" dy="22">(Utveckling av) Klassifikation</tspan>
         <tspan x="655" dy="22">(scheman, algoritmer</tspan>
         <tspan x="655" dy="22">för kategorisering)</tspan>
@@ -115,7 +115,7 @@
         
     </text></g>
     
-    <g id="models" fill-opacity="0.3" visibility="hidden">
+    <g id="models" fill-opacity="0.3" visibility="visible">
         <ellipse rx="130" ry="45" cx="240" cy="310" fill="gainsboro"/>
         <ellipse rx="130" ry="45" cx="240" cy="380" fill="gainsboro"/>
         <ellipse rx="130" ry="85" cx="240" cy="500" fill="gainsboro"/>
@@ -123,7 +123,7 @@
     
     
     
-    <g id="modelsText" visibility="hidden">
+    <g id="modelsText" visibility="visible">
         <text x="185" y="310" fill="black" style="font-size:12pt">Konceptuella modeller:
         </text>
         <text x="185" y="330" fill="black" style="font-size:12pt ; font-style :italic" >FRBR, LRM, Bibframe
@@ -144,15 +144,15 @@
         </text>
     </g>
     
-    <g id="vocs" fill-opacity="0.3" visibility="hidden">
+    <g id="vocs" fill-opacity="0.3" visibility="visible">
         <ellipse rx="100" ry="50" cx="765" cy="260" fill="gainsboro"/>
         <text x="710" y="230" fill-opacity="1.0" style="font-size:12pt">
             <tspan x="710" dy="20">Svenska Ämnesord</tspan>
-            <tspan x="690" dy="20">Art &amp; Architecture Thesaurus</tspan>
+            <tspan x="710" dy="20">Art &amp; Architecture Thesaurus</tspan>
             <tspan x="710" dy="20">Medical Subject Headings</tspan>
         </text>
     </g>
-    <g id="schemes" fill-opacity="0.3" visibility="hidden">
+    <g id="schemes" fill-opacity="0.3" visibility="visible">
         <ellipse rx="100" ry="50" cx="775" cy="610" fill="gainsboro"/>
         <text x="720" y="590" fill-opacity="1.0" style="font-size:12pt">
             <tspan x="720" dy="20">DDC</tspan><tspan dx="30">LCC</tspan>
